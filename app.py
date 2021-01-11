@@ -57,6 +57,32 @@ def welcome():
     )
 
 
+@app.route("/api/v1.0/precipitation")
+def precipitation():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    """Return a list of all Precipitation Data"""
+    # Query all Precipitation
+    results = session.query(Measurement.date, Measurement.prcp).\
+        filter(Measurement.date >= "2016-08-24").\
+        all()
+
+    session.close()
+
+    # Convert the query results to a dictionary using date as the key and prcp as the value.
+    all_precipitation = []
+    for date,prcp  in results:
+        precipitation_dict = {}
+        precipitation_dict["date"] = date
+        precipitation_dict["prcp"] = prcp
+               
+        all_precipitation.append(precipitation_dict)
+
+    return jsonify(all_precipitation)
 
 
 
+
+if __name__ == "__main__":
+    app.run(debug=True)
