@@ -25,7 +25,15 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 **_Precipitation Analysis_**
 <br><br>
 ![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/precipitation_analysis.png)
-
+**_Min, Max, Avg Temperatures_**
+<br><br>
+![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/min_max_avg_temp.png)
+**_Climate Analysis_**
+<br><br>
+![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/climate_analysis.png)
+**_Last 12 Months of Temperatures for Station USC00519281**
+<br><br>
+![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/temp_station_USC00519281.png)
 
 
 ## Step 2 - Climate App
