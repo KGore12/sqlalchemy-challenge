@@ -23,20 +23,25 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 ![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/SQLAlchemy_ORM_tables.png)
 <br><br>
 <br><br>
+
 **_Precipitation Analysis_**
 <br><br>
 ![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/precipitation_analysis.png)
 <br><br>
 <br><br>
+
 **_Min, Max, Avg Temperatures_**
 <br><br>
 ![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/min_max_avg_temp.png)
 <br><br>
 <br><br>
+
 **_Climate Analysis_**
 <br><br>
-<br><br>
 ![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/climate_analysis.png)
+<br><br>
+<br><br>
+
 **_Last 12 Months of Temperatures for Station USC00519281**
 <br><br>
 ![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/temp_station_USC00519281.png)
@@ -45,6 +50,11 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 ## Step 2 - Climate App
 Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+
+**_Example of app.py route**
+<br><br>
+![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/app-py_route-start&end_dates.png)
+<br><br>
 ### Routes
 * `/`
 
