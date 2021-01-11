@@ -19,7 +19,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 <br><br>
 **_Precipitation Analysis_**
 <br><br>
-![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/master/images/precipitation_analysis.png)
+![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/precipitation_analysis.png)
 
 
 
