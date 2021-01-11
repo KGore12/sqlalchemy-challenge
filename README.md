@@ -17,6 +17,11 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 <br><br>
 * Use SQLAlchemy automap_base() to reflect your tables into classes and save a reference to those classes called Station and Measurement.
 <br><br>
+
+**_SQLAlchemy ORM Tables_**
+<br><br>
+![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/SQLAlchemy_ORM_tables.png)
+<br><br>
 **_Precipitation Analysis_**
 <br><br>
 ![Summary](https://github.com/KGore12/sqlalchemy-challenge/blob/main/images/precipitation_analysis.png)
